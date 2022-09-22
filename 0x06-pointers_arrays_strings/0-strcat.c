@@ -9,7 +9,9 @@
  * Return: returns poiner to @dest
  */
 
-char *_strcat(char *dest, char *src)                                       {
+char *_strcat(char *dest, char *src)                                       
+{
+
 	int index = 0, dest_len = 0;
 
 	while (dest[index++])
@@ -19,4 +21,5 @@ char *_strcat(char *dest, char *src)                                       {
 		dest[dest_len++] = src[index];
 
 	return (dest);
+
 }
